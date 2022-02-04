@@ -1,0 +1,25 @@
+[
+
+    {
+        "categoria":"Tipos de Objetos",
+        "pregunta": "Despues de la palabra clase else{if",
+        "respuesta": "Siempre hay una condicion",
+        "incorrecta1":"Siempre hay una accion",
+        "incorrecta2":"Puede haber una accion o condicion",
+        "incorrecta3":"Acaba la seleccion",
+        "imagen":"img/preguntas.jpeg",
+        "object_fit":"cover"
+    },
+
+    {
+        "categoria":"Tipos de Objetos",
+        "pregunta": "En programación, cuál de las siguientes afirmaciones es correcta",
+        "respuesta": "Los valores reales son siempre exactos",
+        "incorrecta1":"Los valores enteros siempre son exactos.",
+        "incorrecta2":"Los valores enteros y reales siempre son exactos. ",
+        "incorrecta3":"Los valores enteros y reales nunca son exactos. ",
+        "imagen":"img/preguntas.jpeg",
+        "object_fit":"cover"
+    }
+    
+]
