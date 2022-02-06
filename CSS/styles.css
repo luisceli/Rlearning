@@ -1,7 +1,7 @@
 #contenedor{
-    width: 300px;
-    height: 300px;
-    border: 1px solid black;
+    width: 232px;
+    height: 217px;
+    border: 3px solid white;
     border-radius: 20px;
     padding: 20px;
     margin-top: 20px; 
@@ -9,9 +9,9 @@
 }
 
 #contenedor2{
-    width: 300px;
-    height: 300px;
-    border: 1px solid black;
+    width: 250px;
+    height: 220px;
+    border: 3px solid white;
     border-radius: 20px;
     padding: 20px;
     margin-top: 20px; 
@@ -19,9 +19,9 @@
 }
 
 #contenedor3{
-    width: 500px;
-    height: 300px;
-    border: 1px solid black;
+    width: 250px;
+    height: 220px;
+    border: 3px solid white;
     border-radius: 20px;
     padding: 20px;
     margin-top: 20px; 
@@ -31,10 +31,28 @@
 body {
 	margin: 0;
 	padding: 0;
-	background-color: #34495e;
+	background-image: url(fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover ;
+  background-position:center;
+  background-attachment: fixed;
     text-align: center;
     font-family: calibri;
     font-size: 120%;
+}
+
+body::before{
+  content: "";
+  width: 100%;
+  min-height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  background: linear-gradient(blue,orange);
+  opacity: 0.6;
+
+  z-index: -1;
 }
 
 div#memory_board {
@@ -61,7 +79,7 @@ img
 
 h1, h3 {
 	text-align: center;
-	color: #fff;
+	color: #fff ;
 	
 }
 h1 {
@@ -127,3 +145,9 @@ h1 {
     color:white;
   }
 
+  .item{
+    float: left;
+  }
+.container{
+  overflow: hidden;
+}
